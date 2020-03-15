@@ -6,7 +6,6 @@ class Config:
     SECRET_KEY = '35d668731b9a277b681fac0a0c12e4c4'
     SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SECRET_KEY = 'thisisthesecretkey'
     # mail configurations
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 465
